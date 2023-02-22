@@ -1,0 +1,17 @@
+2689 avg time: 0.26586732268333435 weight/HRNet32_pose_00140.pth
+2690 avg time: 0.26570504903793335 weight/HRNet32_pose_00140.pth
+2691 avg time: 0.2601366341114044 weight/HRNet32_pose_00140.pth
+2692 avg time: 0.26196494698524475 weight/HRNet32_pose_00140.pth
+Accumulating evaluation results...
+DONE (t=0.14s).
+IoU metric: keypoints
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.676
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.881
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.743
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.622
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.756
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.713
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.904
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.773
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.656
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.795

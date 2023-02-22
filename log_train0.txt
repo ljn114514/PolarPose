@@ -1,0 +1,495 @@
+loading annotations into memory...
+Done (t=12.81s)
+creating index...
+index created!
+17  keypoints:  ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear', 'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+ids_with_ann 64115
+valid ids train 46529
+radius 2.0
+
+dataset: coco
+load pretrained model: None
+feat_channels 256
+num_keypoints: 17
+num_cpoints: 3
+load pretrained model: weight/HRNet32_pose_00060.pth
+[61/140] iter: 300/1551. lr:0.001000. loss_cls: 0.657, loss_ang:1.882, loss_len:0.115
+[61/140] iter: 600/1551. lr:0.001000. loss_cls: 0.657, loss_ang:1.877, loss_len:0.114
+[61/140] iter: 900/1551. lr:0.001000. loss_cls: 0.656, loss_ang:1.880, loss_len:0.115
+[61/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.658, loss_ang:1.883, loss_len:0.115
+[61/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.657, loss_ang:1.880, loss_len:0.115
+Finish 61 epoch
+[62/140] iter: 300/1551. lr:0.001000. loss_cls: 0.649, loss_ang:1.873, loss_len:0.113
+[62/140] iter: 600/1551. lr:0.001000. loss_cls: 0.650, loss_ang:1.875, loss_len:0.114
+[62/140] iter: 900/1551. lr:0.001000. loss_cls: 0.654, loss_ang:1.878, loss_len:0.114
+[62/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.652, loss_ang:1.876, loss_len:0.114
+[62/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.656, loss_ang:1.878, loss_len:0.114
+Finish 62 epoch
+[63/140] iter: 300/1551. lr:0.001000. loss_cls: 0.644, loss_ang:1.875, loss_len:0.115
+[63/140] iter: 600/1551. lr:0.001000. loss_cls: 0.645, loss_ang:1.872, loss_len:0.114
+[63/140] iter: 900/1551. lr:0.001000. loss_cls: 0.651, loss_ang:1.874, loss_len:0.114
+[63/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.653, loss_ang:1.877, loss_len:0.114
+[63/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.654, loss_ang:1.876, loss_len:0.114
+Finish 63 epoch
+[64/140] iter: 300/1551. lr:0.001000. loss_cls: 0.651, loss_ang:1.866, loss_len:0.114
+[64/140] iter: 600/1551. lr:0.001000. loss_cls: 0.651, loss_ang:1.872, loss_len:0.114
+[64/140] iter: 900/1551. lr:0.001000. loss_cls: 0.652, loss_ang:1.874, loss_len:0.114
+[64/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.653, loss_ang:1.875, loss_len:0.114
+[64/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.655, loss_ang:1.875, loss_len:0.114
+Finish 64 epoch
+[65/140] iter: 300/1551. lr:0.001000. loss_cls: 0.639, loss_ang:1.861, loss_len:0.113
+[65/140] iter: 600/1551. lr:0.001000. loss_cls: 0.642, loss_ang:1.865, loss_len:0.113
+[65/140] iter: 900/1551. lr:0.001000. loss_cls: 0.645, loss_ang:1.870, loss_len:0.114
+[65/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.644, loss_ang:1.870, loss_len:0.114
+[65/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.646, loss_ang:1.871, loss_len:0.114
+Finish 65 epoch
+[66/140] iter: 300/1551. lr:0.001000. loss_cls: 0.644, loss_ang:1.860, loss_len:0.112
+[66/140] iter: 600/1551. lr:0.001000. loss_cls: 0.651, loss_ang:1.867, loss_len:0.113
+[66/140] iter: 900/1551. lr:0.001000. loss_cls: 0.647, loss_ang:1.864, loss_len:0.113
+[66/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.651, loss_ang:1.870, loss_len:0.114
+[66/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.652, loss_ang:1.869, loss_len:0.113
+Finish 66 epoch
+[67/140] iter: 300/1551. lr:0.001000. loss_cls: 0.631, loss_ang:1.852, loss_len:0.112
+[67/140] iter: 600/1551. lr:0.001000. loss_cls: 0.639, loss_ang:1.863, loss_len:0.113
+[67/140] iter: 900/1551. lr:0.001000. loss_cls: 0.641, loss_ang:1.860, loss_len:0.112
+[67/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.647, loss_ang:1.865, loss_len:0.113
+[67/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.645, loss_ang:1.864, loss_len:0.113
+Finish 67 epoch
+[68/140] iter: 300/1551. lr:0.001000. loss_cls: 0.640, loss_ang:1.854, loss_len:0.112
+[68/140] iter: 600/1551. lr:0.001000. loss_cls: 0.643, loss_ang:1.856, loss_len:0.112
+[68/140] iter: 900/1551. lr:0.001000. loss_cls: 0.641, loss_ang:1.859, loss_len:0.112
+[68/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.641, loss_ang:1.857, loss_len:0.112
+[68/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.641, loss_ang:1.858, loss_len:0.112
+Finish 68 epoch
+[69/140] iter: 300/1551. lr:0.001000. loss_cls: 0.644, loss_ang:1.857, loss_len:0.112
+[69/140] iter: 600/1551. lr:0.001000. loss_cls: 0.647, loss_ang:1.864, loss_len:0.113
+[69/140] iter: 900/1551. lr:0.001000. loss_cls: 0.643, loss_ang:1.858, loss_len:0.112
+[69/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.642, loss_ang:1.856, loss_len:0.112
+[69/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.642, loss_ang:1.858, loss_len:0.112
+Finish 69 epoch
+[70/140] iter: 300/1551. lr:0.001000. loss_cls: 0.640, loss_ang:1.862, loss_len:0.113
+[70/140] iter: 600/1551. lr:0.001000. loss_cls: 0.637, loss_ang:1.857, loss_len:0.112
+[70/140] iter: 900/1551. lr:0.001000. loss_cls: 0.638, loss_ang:1.858, loss_len:0.112
+[70/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.642, loss_ang:1.858, loss_len:0.112
+[70/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.643, loss_ang:1.858, loss_len:0.112
+Finish 70 epoch
+[71/140] iter: 300/1551. lr:0.001000. loss_cls: 0.654, loss_ang:1.862, loss_len:0.113
+[71/140] iter: 600/1551. lr:0.001000. loss_cls: 0.647, loss_ang:1.858, loss_len:0.113
+[71/140] iter: 900/1551. lr:0.001000. loss_cls: 0.641, loss_ang:1.856, loss_len:0.112
+[71/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.643, loss_ang:1.862, loss_len:0.113
+[71/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.642, loss_ang:1.860, loss_len:0.113
+Finish 71 epoch
+[72/140] iter: 300/1551. lr:0.001000. loss_cls: 0.636, loss_ang:1.854, loss_len:0.111
+[72/140] iter: 600/1551. lr:0.001000. loss_cls: 0.640, loss_ang:1.860, loss_len:0.112
+[72/140] iter: 900/1551. lr:0.001000. loss_cls: 0.645, loss_ang:1.861, loss_len:0.112
+[72/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.646, loss_ang:1.860, loss_len:0.112
+[72/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.645, loss_ang:1.860, loss_len:0.113
+Finish 72 epoch
+[73/140] iter: 300/1551. lr:0.001000. loss_cls: 0.629, loss_ang:1.846, loss_len:0.111
+[73/140] iter: 600/1551. lr:0.001000. loss_cls: 0.632, loss_ang:1.851, loss_len:0.112
+[73/140] iter: 900/1551. lr:0.001000. loss_cls: 0.633, loss_ang:1.846, loss_len:0.111
+[73/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.634, loss_ang:1.845, loss_len:0.111
+[73/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.634, loss_ang:1.847, loss_len:0.111
+Finish 73 epoch
+[74/140] iter: 300/1551. lr:0.001000. loss_cls: 0.632, loss_ang:1.843, loss_len:0.110
+[74/140] iter: 600/1551. lr:0.001000. loss_cls: 0.641, loss_ang:1.850, loss_len:0.112
+[74/140] iter: 900/1551. lr:0.001000. loss_cls: 0.635, loss_ang:1.847, loss_len:0.111
+[74/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.635, loss_ang:1.846, loss_len:0.111
+[74/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.634, loss_ang:1.846, loss_len:0.111
+Finish 74 epoch
+[75/140] iter: 300/1551. lr:0.001000. loss_cls: 0.637, loss_ang:1.853, loss_len:0.111
+[75/140] iter: 600/1551. lr:0.001000. loss_cls: 0.635, loss_ang:1.852, loss_len:0.111
+[75/140] iter: 900/1551. lr:0.001000. loss_cls: 0.637, loss_ang:1.851, loss_len:0.111
+[75/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.637, loss_ang:1.852, loss_len:0.111
+[75/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.636, loss_ang:1.851, loss_len:0.111
+Finish 75 epoch
+[76/140] iter: 300/1551. lr:0.001000. loss_cls: 0.626, loss_ang:1.840, loss_len:0.110
+[76/140] iter: 600/1551. lr:0.001000. loss_cls: 0.626, loss_ang:1.840, loss_len:0.110
+[76/140] iter: 900/1551. lr:0.001000. loss_cls: 0.628, loss_ang:1.840, loss_len:0.110
+[76/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.628, loss_ang:1.840, loss_len:0.110
+[76/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.628, loss_ang:1.840, loss_len:0.110
+Finish 76 epoch
+[77/140] iter: 300/1551. lr:0.001000. loss_cls: 0.626, loss_ang:1.834, loss_len:0.110
+[77/140] iter: 600/1551. lr:0.001000. loss_cls: 0.626, loss_ang:1.837, loss_len:0.110
+[77/140] iter: 900/1551. lr:0.001000. loss_cls: 0.627, loss_ang:1.836, loss_len:0.110
+[77/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.631, loss_ang:1.842, loss_len:0.110
+[77/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.631, loss_ang:1.841, loss_len:0.110
+Finish 77 epoch
+[78/140] iter: 300/1551. lr:0.001000. loss_cls: 0.642, loss_ang:1.845, loss_len:0.111
+[78/140] iter: 600/1551. lr:0.001000. loss_cls: 0.639, loss_ang:1.847, loss_len:0.111
+[78/140] iter: 900/1551. lr:0.001000. loss_cls: 0.638, loss_ang:1.846, loss_len:0.111
+[78/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.636, loss_ang:1.846, loss_len:0.111
+[78/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.635, loss_ang:1.845, loss_len:0.111
+Finish 78 epoch
+[79/140] iter: 300/1551. lr:0.001000. loss_cls: 0.622, loss_ang:1.835, loss_len:0.110
+[79/140] iter: 600/1551. lr:0.001000. loss_cls: 0.623, loss_ang:1.830, loss_len:0.110
+[79/140] iter: 900/1551. lr:0.001000. loss_cls: 0.626, loss_ang:1.836, loss_len:0.110
+[79/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.626, loss_ang:1.836, loss_len:0.110
+[79/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.630, loss_ang:1.840, loss_len:0.111
+Finish 79 epoch
+[80/140] iter: 300/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.818, loss_len:0.108
+[80/140] iter: 600/1551. lr:0.001000. loss_cls: 0.620, loss_ang:1.825, loss_len:0.109
+[80/140] iter: 900/1551. lr:0.001000. loss_cls: 0.623, loss_ang:1.831, loss_len:0.109
+[80/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.624, loss_ang:1.831, loss_len:0.109
+[80/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.625, loss_ang:1.833, loss_len:0.110
+Finish 80 epoch
+[81/140] iter: 300/1551. lr:0.001000. loss_cls: 0.617, loss_ang:1.829, loss_len:0.108
+[81/140] iter: 600/1551. lr:0.001000. loss_cls: 0.622, loss_ang:1.829, loss_len:0.109
+[81/140] iter: 900/1551. lr:0.001000. loss_cls: 0.625, loss_ang:1.836, loss_len:0.110
+[81/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.628, loss_ang:1.840, loss_len:0.110
+[81/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.630, loss_ang:1.841, loss_len:0.111
+Finish 81 epoch
+[82/140] iter: 300/1551. lr:0.001000. loss_cls: 0.622, loss_ang:1.837, loss_len:0.110
+[82/140] iter: 600/1551. lr:0.001000. loss_cls: 0.628, loss_ang:1.837, loss_len:0.110
+[82/140] iter: 900/1551. lr:0.001000. loss_cls: 0.625, loss_ang:1.829, loss_len:0.109
+[82/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.625, loss_ang:1.827, loss_len:0.109
+[82/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.627, loss_ang:1.831, loss_len:0.110
+Finish 82 epoch
+[83/140] iter: 300/1551. lr:0.001000. loss_cls: 0.614, loss_ang:1.833, loss_len:0.110
+[83/140] iter: 600/1551. lr:0.001000. loss_cls: 0.620, loss_ang:1.830, loss_len:0.109
+[83/140] iter: 900/1551. lr:0.001000. loss_cls: 0.620, loss_ang:1.829, loss_len:0.109
+[83/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.622, loss_ang:1.832, loss_len:0.110
+[83/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.621, loss_ang:1.832, loss_len:0.110
+Finish 83 epoch
+[84/140] iter: 300/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.825, loss_len:0.108
+[84/140] iter: 600/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.826, loss_len:0.108
+[84/140] iter: 900/1551. lr:0.001000. loss_cls: 0.617, loss_ang:1.828, loss_len:0.109
+[84/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.828, loss_len:0.109
+[84/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.619, loss_ang:1.831, loss_len:0.110
+Finish 84 epoch
+[85/140] iter: 300/1551. lr:0.001000. loss_cls: 0.609, loss_ang:1.807, loss_len:0.107
+[85/140] iter: 600/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.817, loss_len:0.108
+[85/140] iter: 900/1551. lr:0.001000. loss_cls: 0.616, loss_ang:1.822, loss_len:0.108
+[85/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.822, loss_len:0.109
+[85/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.616, loss_ang:1.822, loss_len:0.108
+Finish 85 epoch
+[86/140] iter: 300/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.819, loss_len:0.108
+[86/140] iter: 600/1551. lr:0.001000. loss_cls: 0.616, loss_ang:1.826, loss_len:0.109
+[86/140] iter: 900/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.826, loss_len:0.109
+[86/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.826, loss_len:0.109
+[86/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.617, loss_ang:1.825, loss_len:0.109
+Finish 86 epoch
+[87/140] iter: 300/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.825, loss_len:0.108
+[87/140] iter: 600/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.820, loss_len:0.108
+[87/140] iter: 900/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.823, loss_len:0.108
+[87/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.822, loss_len:0.108
+[87/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.822, loss_len:0.108
+Finish 87 epoch
+[88/140] iter: 300/1551. lr:0.001000. loss_cls: 0.617, loss_ang:1.826, loss_len:0.108
+[88/140] iter: 600/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.820, loss_len:0.108
+[88/140] iter: 900/1551. lr:0.001000. loss_cls: 0.614, loss_ang:1.823, loss_len:0.108
+[88/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.825, loss_len:0.109
+[88/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.825, loss_len:0.109
+Finish 88 epoch
+[89/140] iter: 300/1551. lr:0.001000. loss_cls: 0.609, loss_ang:1.815, loss_len:0.108
+[89/140] iter: 600/1551. lr:0.001000. loss_cls: 0.614, loss_ang:1.823, loss_len:0.108
+[89/140] iter: 900/1551. lr:0.001000. loss_cls: 0.617, loss_ang:1.826, loss_len:0.109
+[89/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.619, loss_ang:1.826, loss_len:0.109
+[89/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.618, loss_ang:1.827, loss_len:0.109
+Finish 89 epoch
+[90/140] iter: 300/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.814, loss_len:0.107
+[90/140] iter: 600/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.823, loss_len:0.108
+[90/140] iter: 900/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.819, loss_len:0.108
+[90/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.819, loss_len:0.108
+[90/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.612, loss_ang:1.819, loss_len:0.108
+Finish 90 epoch
+[91/140] iter: 300/1551. lr:0.001000. loss_cls: 0.614, loss_ang:1.815, loss_len:0.109
+[91/140] iter: 600/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.818, loss_len:0.108
+[91/140] iter: 900/1551. lr:0.001000. loss_cls: 0.616, loss_ang:1.818, loss_len:0.108
+[91/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.616, loss_ang:1.823, loss_len:0.109
+[91/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.615, loss_ang:1.821, loss_len:0.109
+Finish 91 epoch
+[92/140] iter: 300/1551. lr:0.001000. loss_cls: 0.611, loss_ang:1.809, loss_len:0.107
+[92/140] iter: 600/1551. lr:0.001000. loss_cls: 0.613, loss_ang:1.818, loss_len:0.108
+[92/140] iter: 900/1551. lr:0.001000. loss_cls: 0.607, loss_ang:1.813, loss_len:0.108
+[92/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.608, loss_ang:1.814, loss_len:0.108
+[92/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.607, loss_ang:1.812, loss_len:0.107
+Finish 92 epoch
+[93/140] iter: 300/1551. lr:0.001000. loss_cls: 0.603, loss_ang:1.812, loss_len:0.107
+[93/140] iter: 600/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.819, loss_len:0.108
+[93/140] iter: 900/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.817, loss_len:0.108
+[93/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.611, loss_ang:1.816, loss_len:0.108
+[93/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.612, loss_ang:1.816, loss_len:0.108
+Finish 93 epoch
+[94/140] iter: 300/1551. lr:0.001000. loss_cls: 0.606, loss_ang:1.817, loss_len:0.108
+[94/140] iter: 600/1551. lr:0.001000. loss_cls: 0.606, loss_ang:1.813, loss_len:0.107
+[94/140] iter: 900/1551. lr:0.001000. loss_cls: 0.606, loss_ang:1.818, loss_len:0.108
+[94/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.607, loss_ang:1.817, loss_len:0.108
+[94/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.817, loss_len:0.108
+Finish 94 epoch
+[95/140] iter: 300/1551. lr:0.001000. loss_cls: 0.601, loss_ang:1.806, loss_len:0.107
+[95/140] iter: 600/1551. lr:0.001000. loss_cls: 0.608, loss_ang:1.810, loss_len:0.107
+[95/140] iter: 900/1551. lr:0.001000. loss_cls: 0.612, loss_ang:1.817, loss_len:0.108
+[95/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.612, loss_ang:1.817, loss_len:0.108
+[95/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.815, loss_len:0.108
+Finish 95 epoch
+[96/140] iter: 300/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.815, loss_len:0.108
+[96/140] iter: 600/1551. lr:0.001000. loss_cls: 0.605, loss_ang:1.812, loss_len:0.107
+[96/140] iter: 900/1551. lr:0.001000. loss_cls: 0.607, loss_ang:1.815, loss_len:0.107
+[96/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.609, loss_ang:1.815, loss_len:0.108
+[96/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.610, loss_ang:1.816, loss_len:0.108
+Finish 96 epoch
+[97/140] iter: 300/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.800, loss_len:0.106
+[97/140] iter: 600/1551. lr:0.001000. loss_cls: 0.600, loss_ang:1.802, loss_len:0.107
+[97/140] iter: 900/1551. lr:0.001000. loss_cls: 0.600, loss_ang:1.803, loss_len:0.107
+[97/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.606, loss_ang:1.810, loss_len:0.107
+[97/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.605, loss_ang:1.809, loss_len:0.107
+Finish 97 epoch
+[98/140] iter: 300/1551. lr:0.001000. loss_cls: 0.591, loss_ang:1.794, loss_len:0.105
+[98/140] iter: 600/1551. lr:0.001000. loss_cls: 0.598, loss_ang:1.800, loss_len:0.106
+[98/140] iter: 900/1551. lr:0.001000. loss_cls: 0.600, loss_ang:1.801, loss_len:0.106
+[98/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.603, loss_ang:1.805, loss_len:0.107
+[98/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.604, loss_ang:1.808, loss_len:0.107
+Finish 98 epoch
+[99/140] iter: 300/1551. lr:0.001000. loss_cls: 0.598, loss_ang:1.803, loss_len:0.107
+[99/140] iter: 600/1551. lr:0.001000. loss_cls: 0.601, loss_ang:1.806, loss_len:0.107
+[99/140] iter: 900/1551. lr:0.001000. loss_cls: 0.600, loss_ang:1.803, loss_len:0.107
+[99/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.598, loss_ang:1.798, loss_len:0.106
+[99/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.599, loss_ang:1.800, loss_len:0.107
+Finish 99 epoch
+[100/140] iter: 300/1551. lr:0.001000. loss_cls: 0.599, loss_ang:1.810, loss_len:0.107
+[100/140] iter: 600/1551. lr:0.001000. loss_cls: 0.604, loss_ang:1.809, loss_len:0.107
+[100/140] iter: 900/1551. lr:0.001000. loss_cls: 0.605, loss_ang:1.809, loss_len:0.107
+[100/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.605, loss_ang:1.810, loss_len:0.107
+[100/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.606, loss_ang:1.809, loss_len:0.107
+Finish 100 epoch
+[101/140] iter: 300/1551. lr:0.001000. loss_cls: 0.603, loss_ang:1.802, loss_len:0.106
+[101/140] iter: 600/1551. lr:0.001000. loss_cls: 0.603, loss_ang:1.799, loss_len:0.105
+[101/140] iter: 900/1551. lr:0.001000. loss_cls: 0.602, loss_ang:1.799, loss_len:0.106
+[101/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.603, loss_ang:1.799, loss_len:0.106
+[101/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.601, loss_ang:1.799, loss_len:0.106
+Finish 101 epoch
+[102/140] iter: 300/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.798, loss_len:0.106
+[102/140] iter: 600/1551. lr:0.001000. loss_cls: 0.593, loss_ang:1.800, loss_len:0.106
+[102/140] iter: 900/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.798, loss_len:0.106
+[102/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.596, loss_ang:1.798, loss_len:0.106
+[102/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.598, loss_ang:1.799, loss_len:0.106
+Finish 102 epoch
+[103/140] iter: 300/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.779, loss_len:0.104
+[103/140] iter: 600/1551. lr:0.001000. loss_cls: 0.592, loss_ang:1.790, loss_len:0.106
+[103/140] iter: 900/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.797, loss_len:0.106
+[103/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.599, loss_ang:1.800, loss_len:0.107
+[103/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.602, loss_ang:1.801, loss_len:0.107
+Finish 103 epoch
+[104/140] iter: 300/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.788, loss_len:0.105
+[104/140] iter: 600/1551. lr:0.001000. loss_cls: 0.598, loss_ang:1.797, loss_len:0.106
+[104/140] iter: 900/1551. lr:0.001000. loss_cls: 0.598, loss_ang:1.798, loss_len:0.106
+[104/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.596, loss_ang:1.798, loss_len:0.106
+[104/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.597, loss_ang:1.798, loss_len:0.106
+Finish 104 epoch
+[105/140] iter: 300/1551. lr:0.001000. loss_cls: 0.574, loss_ang:1.779, loss_len:0.104
+[105/140] iter: 600/1551. lr:0.001000. loss_cls: 0.583, loss_ang:1.783, loss_len:0.104
+[105/140] iter: 900/1551. lr:0.001000. loss_cls: 0.589, loss_ang:1.788, loss_len:0.105
+[105/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.590, loss_ang:1.789, loss_len:0.105
+[105/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.591, loss_ang:1.791, loss_len:0.105
+Finish 105 epoch
+[106/140] iter: 300/1551. lr:0.001000. loss_cls: 0.588, loss_ang:1.789, loss_len:0.105
+[106/140] iter: 600/1551. lr:0.001000. loss_cls: 0.590, loss_ang:1.793, loss_len:0.106
+[106/140] iter: 900/1551. lr:0.001000. loss_cls: 0.589, loss_ang:1.791, loss_len:0.105
+[106/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.795, loss_len:0.106
+[106/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.795, loss_len:0.106
+Finish 106 epoch
+[107/140] iter: 300/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.791, loss_len:0.106
+[107/140] iter: 600/1551. lr:0.001000. loss_cls: 0.593, loss_ang:1.792, loss_len:0.106
+[107/140] iter: 900/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.794, loss_len:0.106
+[107/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.596, loss_ang:1.796, loss_len:0.106
+[107/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.796, loss_len:0.106
+Finish 107 epoch
+[108/140] iter: 300/1551. lr:0.001000. loss_cls: 0.597, loss_ang:1.794, loss_len:0.106
+[108/140] iter: 600/1551. lr:0.001000. loss_cls: 0.591, loss_ang:1.785, loss_len:0.105
+[108/140] iter: 900/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.792, loss_len:0.105
+[108/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.596, loss_ang:1.795, loss_len:0.106
+[108/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.795, loss_len:0.106
+Finish 108 epoch
+[109/140] iter: 300/1551. lr:0.001000. loss_cls: 0.580, loss_ang:1.785, loss_len:0.105
+[109/140] iter: 600/1551. lr:0.001000. loss_cls: 0.582, loss_ang:1.781, loss_len:0.105
+[109/140] iter: 900/1551. lr:0.001000. loss_cls: 0.588, loss_ang:1.785, loss_len:0.105
+[109/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.590, loss_ang:1.787, loss_len:0.105
+[109/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.588, loss_ang:1.786, loss_len:0.105
+Finish 109 epoch
+[110/140] iter: 300/1551. lr:0.001000. loss_cls: 0.586, loss_ang:1.778, loss_len:0.104
+[110/140] iter: 600/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.788, loss_len:0.105
+[110/140] iter: 900/1551. lr:0.001000. loss_cls: 0.593, loss_ang:1.789, loss_len:0.105
+[110/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.791, loss_len:0.105
+[110/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.791, loss_len:0.105
+Finish 110 epoch
+[111/140] iter: 300/1551. lr:0.001000. loss_cls: 0.595, loss_ang:1.789, loss_len:0.105
+[111/140] iter: 600/1551. lr:0.001000. loss_cls: 0.591, loss_ang:1.788, loss_len:0.105
+[111/140] iter: 900/1551. lr:0.001000. loss_cls: 0.590, loss_ang:1.784, loss_len:0.105
+[111/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.592, loss_ang:1.788, loss_len:0.105
+[111/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.594, loss_ang:1.790, loss_len:0.105
+Finish 111 epoch
+[112/140] iter: 300/1551. lr:0.001000. loss_cls: 0.592, loss_ang:1.788, loss_len:0.105
+[112/140] iter: 600/1551. lr:0.001000. loss_cls: 0.587, loss_ang:1.786, loss_len:0.105
+[112/140] iter: 900/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.787, loss_len:0.105
+[112/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.784, loss_len:0.105
+[112/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.588, loss_ang:1.786, loss_len:0.105
+Finish 112 epoch
+[113/140] iter: 300/1551. lr:0.001000. loss_cls: 0.589, loss_ang:1.787, loss_len:0.105
+[113/140] iter: 600/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.782, loss_len:0.105
+[113/140] iter: 900/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.784, loss_len:0.105
+[113/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.783, loss_len:0.105
+[113/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.586, loss_ang:1.786, loss_len:0.105
+Finish 113 epoch
+[114/140] iter: 300/1551. lr:0.001000. loss_cls: 0.583, loss_ang:1.782, loss_len:0.104
+[114/140] iter: 600/1551. lr:0.001000. loss_cls: 0.584, loss_ang:1.781, loss_len:0.104
+[114/140] iter: 900/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.781, loss_len:0.104
+[114/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.583, loss_ang:1.781, loss_len:0.104
+[114/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.782, loss_len:0.105
+Finish 114 epoch
+[115/140] iter: 300/1551. lr:0.001000. loss_cls: 0.577, loss_ang:1.776, loss_len:0.104
+[115/140] iter: 600/1551. lr:0.001000. loss_cls: 0.584, loss_ang:1.783, loss_len:0.105
+[115/140] iter: 900/1551. lr:0.001000. loss_cls: 0.584, loss_ang:1.781, loss_len:0.104
+[115/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.586, loss_ang:1.783, loss_len:0.105
+[115/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.588, loss_ang:1.782, loss_len:0.105
+Finish 115 epoch
+[116/140] iter: 300/1551. lr:0.001000. loss_cls: 0.587, loss_ang:1.780, loss_len:0.104
+[116/140] iter: 600/1551. lr:0.001000. loss_cls: 0.590, loss_ang:1.782, loss_len:0.104
+[116/140] iter: 900/1551. lr:0.001000. loss_cls: 0.590, loss_ang:1.784, loss_len:0.105
+[116/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.589, loss_ang:1.785, loss_len:0.105
+[116/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.587, loss_ang:1.781, loss_len:0.104
+Finish 116 epoch
+[117/140] iter: 300/1551. lr:0.001000. loss_cls: 0.583, loss_ang:1.770, loss_len:0.104
+[117/140] iter: 600/1551. lr:0.001000. loss_cls: 0.583, loss_ang:1.783, loss_len:0.105
+[117/140] iter: 900/1551. lr:0.001000. loss_cls: 0.582, loss_ang:1.782, loss_len:0.105
+[117/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.586, loss_ang:1.786, loss_len:0.105
+[117/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.589, loss_ang:1.790, loss_len:0.105
+Finish 117 epoch
+[118/140] iter: 300/1551. lr:0.001000. loss_cls: 0.578, loss_ang:1.772, loss_len:0.103
+[118/140] iter: 600/1551. lr:0.001000. loss_cls: 0.582, loss_ang:1.777, loss_len:0.104
+[118/140] iter: 900/1551. lr:0.001000. loss_cls: 0.582, loss_ang:1.779, loss_len:0.104
+[118/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.784, loss_len:0.104
+[118/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.585, loss_ang:1.784, loss_len:0.104
+Finish 118 epoch
+[119/140] iter: 300/1551. lr:0.001000. loss_cls: 0.572, loss_ang:1.772, loss_len:0.104
+[119/140] iter: 600/1551. lr:0.001000. loss_cls: 0.576, loss_ang:1.771, loss_len:0.103
+[119/140] iter: 900/1551. lr:0.001000. loss_cls: 0.578, loss_ang:1.772, loss_len:0.103
+[119/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.775, loss_len:0.104
+[119/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.777, loss_len:0.104
+Finish 119 epoch
+[120/140] iter: 300/1551. lr:0.001000. loss_cls: 0.574, loss_ang:1.764, loss_len:0.103
+[120/140] iter: 600/1551. lr:0.001000. loss_cls: 0.577, loss_ang:1.771, loss_len:0.103
+[120/140] iter: 900/1551. lr:0.001000. loss_cls: 0.578, loss_ang:1.776, loss_len:0.104
+[120/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.777, loss_len:0.104
+[120/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.582, loss_ang:1.778, loss_len:0.104
+Finish 120 epoch
+[121/140] iter: 300/1551. lr:0.001000. loss_cls: 0.584, loss_ang:1.778, loss_len:0.103
+[121/140] iter: 600/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.784, loss_len:0.104
+[121/140] iter: 900/1551. lr:0.001000. loss_cls: 0.577, loss_ang:1.779, loss_len:0.104
+[121/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.578, loss_ang:1.779, loss_len:0.104
+[121/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.579, loss_ang:1.779, loss_len:0.104
+Finish 121 epoch
+[122/140] iter: 300/1551. lr:0.001000. loss_cls: 0.566, loss_ang:1.768, loss_len:0.102
+[122/140] iter: 600/1551. lr:0.001000. loss_cls: 0.574, loss_ang:1.772, loss_len:0.103
+[122/140] iter: 900/1551. lr:0.001000. loss_cls: 0.578, loss_ang:1.776, loss_len:0.103
+[122/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.580, loss_ang:1.777, loss_len:0.104
+[122/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.581, loss_ang:1.777, loss_len:0.104
+Finish 122 epoch
+[123/140] iter: 300/1551. lr:0.001000. loss_cls: 0.571, loss_ang:1.778, loss_len:0.103
+[123/140] iter: 600/1551. lr:0.001000. loss_cls: 0.575, loss_ang:1.773, loss_len:0.103
+[123/140] iter: 900/1551. lr:0.001000. loss_cls: 0.575, loss_ang:1.770, loss_len:0.103
+[123/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.576, loss_ang:1.770, loss_len:0.103
+[123/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.580, loss_ang:1.773, loss_len:0.103
+Finish 123 epoch
+[124/140] iter: 300/1551. lr:0.001000. loss_cls: 0.570, loss_ang:1.770, loss_len:0.103
+[124/140] iter: 600/1551. lr:0.001000. loss_cls: 0.570, loss_ang:1.771, loss_len:0.103
+[124/140] iter: 900/1551. lr:0.001000. loss_cls: 0.574, loss_ang:1.772, loss_len:0.103
+[124/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.575, loss_ang:1.774, loss_len:0.104
+[124/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.577, loss_ang:1.776, loss_len:0.104
+Finish 124 epoch
+[125/140] iter: 300/1551. lr:0.001000. loss_cls: 0.576, loss_ang:1.783, loss_len:0.104
+[125/140] iter: 600/1551. lr:0.001000. loss_cls: 0.576, loss_ang:1.779, loss_len:0.104
+[125/140] iter: 900/1551. lr:0.001000. loss_cls: 0.575, loss_ang:1.774, loss_len:0.104
+[125/140] iter: 1200/1551. lr:0.001000. loss_cls: 0.575, loss_ang:1.771, loss_len:0.103
+[125/140] iter: 1500/1551. lr:0.001000. loss_cls: 0.577, loss_ang:1.772, loss_len:0.103
+Finish 125 epoch
+[126/140] iter: 300/1551. lr:0.000100. loss_cls: 0.555, loss_ang:1.740, loss_len:0.101
+[126/140] iter: 600/1551. lr:0.000100. loss_cls: 0.549, loss_ang:1.727, loss_len:0.099
+[126/140] iter: 900/1551. lr:0.000100. loss_cls: 0.546, loss_ang:1.726, loss_len:0.099
+[126/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.543, loss_ang:1.724, loss_len:0.099
+[126/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.543, loss_ang:1.724, loss_len:0.099
+Finish 126 epoch
+[127/140] iter: 300/1551. lr:0.000100. loss_cls: 0.537, loss_ang:1.712, loss_len:0.097
+[127/140] iter: 600/1551. lr:0.000100. loss_cls: 0.535, loss_ang:1.710, loss_len:0.097
+[127/140] iter: 900/1551. lr:0.000100. loss_cls: 0.537, loss_ang:1.714, loss_len:0.098
+[127/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.536, loss_ang:1.713, loss_len:0.097
+[127/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.534, loss_ang:1.711, loss_len:0.097
+Finish 127 epoch
+[128/140] iter: 300/1551. lr:0.000100. loss_cls: 0.530, loss_ang:1.702, loss_len:0.097
+[128/140] iter: 600/1551. lr:0.000100. loss_cls: 0.533, loss_ang:1.701, loss_len:0.097
+[128/140] iter: 900/1551. lr:0.000100. loss_cls: 0.531, loss_ang:1.700, loss_len:0.097
+[128/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.532, loss_ang:1.702, loss_len:0.097
+[128/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.531, loss_ang:1.702, loss_len:0.097
+Finish 128 epoch
+[129/140] iter: 300/1551. lr:0.000100. loss_cls: 0.531, loss_ang:1.703, loss_len:0.097
+[129/140] iter: 600/1551. lr:0.000100. loss_cls: 0.533, loss_ang:1.704, loss_len:0.097
+[129/140] iter: 900/1551. lr:0.000100. loss_cls: 0.532, loss_ang:1.702, loss_len:0.097
+[129/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.530, loss_ang:1.701, loss_len:0.096
+[129/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.528, loss_ang:1.700, loss_len:0.096
+Finish 129 epoch
+[130/140] iter: 300/1551. lr:0.000100. loss_cls: 0.524, loss_ang:1.695, loss_len:0.096
+[130/140] iter: 600/1551. lr:0.000100. loss_cls: 0.527, loss_ang:1.694, loss_len:0.096
+[130/140] iter: 900/1551. lr:0.000100. loss_cls: 0.527, loss_ang:1.695, loss_len:0.096
+[130/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.526, loss_ang:1.693, loss_len:0.095
+[130/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.525, loss_ang:1.693, loss_len:0.095
+Finish 130 epoch
+[131/140] iter: 300/1551. lr:0.000100. loss_cls: 0.517, loss_ang:1.690, loss_len:0.095
+[131/140] iter: 600/1551. lr:0.000100. loss_cls: 0.518, loss_ang:1.690, loss_len:0.095
+[131/140] iter: 900/1551. lr:0.000100. loss_cls: 0.521, loss_ang:1.691, loss_len:0.095
+[131/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.522, loss_ang:1.693, loss_len:0.095
+[131/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.523, loss_ang:1.693, loss_len:0.096
+Finish 131 epoch
+[132/140] iter: 300/1551. lr:0.000100. loss_cls: 0.521, loss_ang:1.699, loss_len:0.096
+[132/140] iter: 600/1551. lr:0.000100. loss_cls: 0.518, loss_ang:1.690, loss_len:0.096
+[132/140] iter: 900/1551. lr:0.000100. loss_cls: 0.519, loss_ang:1.690, loss_len:0.095
+[132/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.519, loss_ang:1.689, loss_len:0.095
+[132/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.520, loss_ang:1.690, loss_len:0.095
+Finish 132 epoch
+[133/140] iter: 300/1551. lr:0.000100. loss_cls: 0.510, loss_ang:1.673, loss_len:0.093
+[133/140] iter: 600/1551. lr:0.000100. loss_cls: 0.517, loss_ang:1.688, loss_len:0.095
+[133/140] iter: 900/1551. lr:0.000100. loss_cls: 0.517, loss_ang:1.687, loss_len:0.095
+[133/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.519, loss_ang:1.689, loss_len:0.095
+[133/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.518, loss_ang:1.688, loss_len:0.095
+Finish 133 epoch
+[134/140] iter: 300/1551. lr:0.000100. loss_cls: 0.516, loss_ang:1.693, loss_len:0.096
+[134/140] iter: 600/1551. lr:0.000100. loss_cls: 0.514, loss_ang:1.684, loss_len:0.095
+[134/140] iter: 900/1551. lr:0.000100. loss_cls: 0.516, loss_ang:1.687, loss_len:0.095
+[134/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.515, loss_ang:1.683, loss_len:0.095
+[134/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.515, loss_ang:1.683, loss_len:0.095
+Finish 134 epoch
+[135/140] iter: 300/1551. lr:0.000100. loss_cls: 0.513, loss_ang:1.674, loss_len:0.094
+[135/140] iter: 600/1551. lr:0.000100. loss_cls: 0.512, loss_ang:1.677, loss_len:0.094
+[135/140] iter: 900/1551. lr:0.000100. loss_cls: 0.515, loss_ang:1.679, loss_len:0.094
+[135/140] iter: 1200/1551. lr:0.000100. loss_cls: 0.515, loss_ang:1.683, loss_len:0.095
+[135/140] iter: 1500/1551. lr:0.000100. loss_cls: 0.517, loss_ang:1.684, loss_len:0.095
+Finish 135 epoch
+[136/140] iter: 300/1551. lr:0.000010. loss_cls: 0.516, loss_ang:1.677, loss_len:0.094
+[136/140] iter: 600/1551. lr:0.000010. loss_cls: 0.515, loss_ang:1.678, loss_len:0.094
+[136/140] iter: 900/1551. lr:0.000010. loss_cls: 0.514, loss_ang:1.679, loss_len:0.094
+[136/140] iter: 1200/1551. lr:0.000010. loss_cls: 0.513, loss_ang:1.680, loss_len:0.094
+[136/140] iter: 1500/1551. lr:0.000010. loss_cls: 0.517, loss_ang:1.684, loss_len:0.095
+Finish 136 epoch
+[137/140] iter: 300/1551. lr:0.000010. loss_cls: 0.508, loss_ang:1.672, loss_len:0.094
+[137/140] iter: 600/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.680, loss_len:0.094
+[137/140] iter: 900/1551. lr:0.000010. loss_cls: 0.509, loss_ang:1.678, loss_len:0.094
+[137/140] iter: 1200/1551. lr:0.000010. loss_cls: 0.510, loss_ang:1.677, loss_len:0.094
+[137/140] iter: 1500/1551. lr:0.000010. loss_cls: 0.510, loss_ang:1.677, loss_len:0.094
+Finish 137 epoch
+[138/140] iter: 300/1551. lr:0.000010. loss_cls: 0.509, loss_ang:1.673, loss_len:0.093
+[138/140] iter: 600/1551. lr:0.000010. loss_cls: 0.509, loss_ang:1.676, loss_len:0.094
+[138/140] iter: 900/1551. lr:0.000010. loss_cls: 0.510, loss_ang:1.675, loss_len:0.094
+[138/140] iter: 1200/1551. lr:0.000010. loss_cls: 0.509, loss_ang:1.675, loss_len:0.094
+[138/140] iter: 1500/1551. lr:0.000010. loss_cls: 0.510, loss_ang:1.678, loss_len:0.094
+Finish 138 epoch
+[139/140] iter: 300/1551. lr:0.000010. loss_cls: 0.516, loss_ang:1.676, loss_len:0.094
+[139/140] iter: 600/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.674, loss_len:0.093
+[139/140] iter: 900/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.676, loss_len:0.094
+[139/140] iter: 1200/1551. lr:0.000010. loss_cls: 0.512, loss_ang:1.678, loss_len:0.094
+[139/140] iter: 1500/1551. lr:0.000010. loss_cls: 0.510, loss_ang:1.675, loss_len:0.094
+Finish 139 epoch
+[140/140] iter: 300/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.677, loss_len:0.094
+[140/140] iter: 600/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.675, loss_len:0.094
+[140/140] iter: 900/1551. lr:0.000010. loss_cls: 0.510, loss_ang:1.678, loss_len:0.094
+[140/140] iter: 1200/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.678, loss_len:0.094
+[140/140] iter: 1500/1551. lr:0.000010. loss_cls: 0.511, loss_ang:1.680, loss_len:0.094
+Finish 140 epoch
