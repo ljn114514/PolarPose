@@ -363,6 +363,15 @@ class COCOPoseDataset(Dataset):
 
                 lens.append(length)
                 angles.append(float(angle))
+                
+                # angle_quantized = int(angle/(2*math.pi)*self.angle_bins+0.5)%self.angle_bins
+                # length = math.sqrt(dx**2+dy**2)
+
+                # angle_diff = float(angle_quantized)/self.angle_bins*math.pi*2 - angle
+                # length = length * math.cos(angle_diff)
+
+                # lens.append(length)
+                # angles.append(float(angle_quantized))
 
         pose_target = torch.cat([torch.tensor(lens), torch.tensor(angles)])
         return pose_target
